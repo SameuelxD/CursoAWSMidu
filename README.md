@@ -21,10 +21,10 @@ Cda tipo de escalamiento tiene sus diferencias que los hacen mejor o peor en sit
 
 ### Servicios AWS
 # EC2 (Elastic Cloud Computing).
-Es un servicio para lanzar instancias o crear maquinas virtuales, con direcciones ip de alojamiento que sirven como dominio privados y publicos , servidores para alojar cualquier tipo de servicio como API's , Paginas Estaticas ,etc , es casi igual que AWS S3 , con la diferencia de que con AWS EC2 hay mas cobertura y poder no solo subir paginas web estaticas si  no hacer muchas mas cosas.
+Es un servicio para lanzar instancias o crear maquinas virtuales, con direcciones ip de alojamiento que sirven como dominio privados y publicos , servidores para alojar cualquier tipo de servicio como API's , Paginas Estaticas ,etc , es casi igual que AWS S3 , con la diferencia de que con AWS EC2 hay mas cobertura y poder no solo subir paginas web estaticas si  no hacer muchas mas cosas. Los EC2 son instancias.
 
 # RDS (Relational DataBase Services).
-Es una base de datos compatible con SQL , o lenguaje relacional de bases de datos , es decir su desarrolladora es AWS con un motor propio de AWS pero implementan la API de SQL para que este servicio pueda ser compatible con SQL , esta misma configuracion del servicio permite tambien alojar bases de datos como Aurora compatible con SQL y PostgreSQL , MYSQL , MariaDB , PostgreSQL , Oracle , etc. PlanteScale es un servicio que utiliza AWS , es un servicio que configura automaticamente los servicios que provee AWS , es un envoltorio que facilita el uso y la configuracion de todo lo que necesitamos en AWS
+Es una base de datos compatible con SQL , o lenguaje relacional de bases de datos , es decir su desarrolladora es AWS con un motor propio de AWS pero implementan la API de SQL para que este servicio pueda ser compatible con SQL , esta misma configuracion del servicio permite tambien alojar bases de datos como Aurora compatible con SQL y PostgreSQL , MYSQL , MariaDB , PostgreSQL , Oracle , etc. PlanetScale es un servicio que utiliza AWS , es un servicio que configura automaticamente los servicios que provee AWS , es un envoltorio que facilita el uso y la configuracion de todo lo que necesitamos en AWS
 
 
 # Amazon Document DB.
@@ -35,3 +35,9 @@ Base de datos propia de AWS , DB clave y valor , No es SQL , no es relacional , 
 
 # Amazon MemoryDB for Redis.
 Servicio de Bases de Datos compatible con Redis
+
+# S3 (Simple Storage Service).
+S3 es el mas simple pero a la vez es el mas usado , simple en cuestion de calidad precio que ofrece AWS , es decir pues su potencia,calidad de almacenar paginas web estaticas con su valor en costos es simple , de facil acceso y ergonomia en servicios y costos , hay que tener claro que estos servicios se almacenan un servidor donde la ubicacion de su alojamiento fisico es importante para la localizacion del cliente para el uso de sus servicios , pues la LATENCIA llega a ser mas alta si esta lejos o mas baja si esta cerca. Los S3 son buckets.
+
+# AWS LAMBDA.
+Es un servicio de computacion pero sin un servidor de alojamiento , permite ejecutar codigo sin necesidad de levantar una maquina , las Lambda ejecutan codigo y trabajan si lo necesitan automaticamente escalables permitiendo asi cualquier peticion en el servicio , tardan muy poco, su latencia permanece baja y el cobro del servicio es por el tiempo de computacion , las lambda son funciones
