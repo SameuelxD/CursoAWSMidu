@@ -21,4 +21,17 @@ Cda tipo de escalamiento tiene sus diferencias que los hacen mejor o peor en sit
 
 ### Servicios AWS
 # EC2 (Elastic Cloud Computing).
-Es un servicio para lanzar instancias o crear maquinas virtuales
+Es un servicio para lanzar instancias o crear maquinas virtuales, con direcciones ip de alojamiento que sirven como dominio privados y publicos , servidores para alojar cualquier tipo de servicio como API's , Paginas Estaticas ,etc , es casi igual que AWS S3 , con la diferencia de que con AWS EC2 hay mas cobertura y poder no solo subir paginas web estaticas si  no hacer muchas mas cosas.
+
+# RDS (Relational DataBase Services).
+Es una base de datos compatible con SQL , o lenguaje relacional de bases de datos , es decir su desarrolladora es AWS con un motor propio de AWS pero implementan la API de SQL para que este servicio pueda ser compatible con SQL , esta misma configuracion del servicio permite tambien alojar bases de datos como Aurora compatible con SQL y PostgreSQL , MYSQL , MariaDB , PostgreSQL , Oracle , etc. PlanteScale es un servicio que utiliza AWS , es un servicio que configura automaticamente los servicios que provee AWS , es un envoltorio que facilita el uso y la configuracion de todo lo que necesitamos en AWS
+
+
+# Amazon Document DB.
+Es una base de datos compatible con MongoDb , es un servicio creado y diseñado por AWS con MongoDb pero no es utilizable este servicio en MongoDb , es decir AWS Amazon Document DB si puede interactuar en su app con servicios provenientes de MongoDb pero viceversa MongoDb en su app no comparte sus servicios con AWS Amazon Document DB , es decir este servicio por medio de la API de MongoDb emula sus Bases de Datos sin ser reciproco MongoDb.
+
+# Dynamo DB.
+Base de datos propia de AWS , DB clave y valor , No es SQL , no es relacional , es una base de datos con recursos mas costosos que sus otros servicios Databases.
+
+# Amazon MemoryDB for Redis.
+Servicio de Bases de Datos compatible con Redis
